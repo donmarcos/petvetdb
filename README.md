@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ionic Material
 
 [![Join the chat at https://gitter.im/zachsoft/Ionic-Material](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zachsoft/Ionic-Material?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -136,3 +137,7 @@ See [Milestones](https://github.com/zachsoft/ionic-material/milestones)
 3. Port animate.js with bezier curve adjustments to match "authentic motion" spec of Material Design.
 
 4. Bug fixes
+=======
+# petvetdb
+Veteran Hackathon - Ionic/laravel/mysql service animal/document tracking system and updates
+>>>>>>> cfef80e6b92a4ce66e76d0ede7a9d9aef2764f37
