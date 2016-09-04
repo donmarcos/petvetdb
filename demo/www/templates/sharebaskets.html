@@ -1,0 +1,56 @@
+<ion-view view-title="Profile">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <div class="hero slide-up" style="background-image: url('img/profile-bg.jpg');">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/daenerys.jpg');"></div>
+                <h3><a class="light">Daenerys Targaryen</a></h3>
+                <h4>dragon_mommy</h4>
+            </div>
+        </div>
+        
+		
+		<div class="tabs tabs-dark tabs-icon-top static">
+            <a ui-sref="app.activity" class="tab-item">
+                <i class="icon ion-android-person-add"></i> Profile
+            </a>
+            <a ui-sref="app.gallery" class="tab-item">
+                <i class="icon ion-ios-paw-outline"></i> My Pets
+            </a>
+            <a ui-sref="app.gallery" class="tab-item">
+                <i class="icon ion-ios-people-outline"></i> Events
+            </a>
+			<a ui-sref="app.gallery" class="tab-item">
+                <i class="icon ion-ios-search-strong"></i> Resources
+            </a>
+        </div>
+		
+        <h4 class="content padding double-padding-x">Enter Pets Info</h4>
+        <div class="list animate-fade-slide-in-right">
+            
+			
+			<form>
+        <div class="list">
+		<md-input-container>
+            <ion-md-input ng-model="basket.qty" placeholder="Quantity" highlight-color="balanced" type="text"></ion-md-input>
+			<ion-md-input ng-model="basket.weight" placeholder="Weight" highlight-color="balanced" type="text"></ion-md-input>
+			<ion-md-input ng-model="basket.quality" placeholder="Quality" highlight-color="balanced" type="text"></ion-md-input>
+			
+			<label class="item item-input item-stacked-label">
+				<span class="input-label">textarea label</span>
+				<textarea placeholder="yyy" rows="8" cols="10">
+				</textarea>
+			</label>
+			
+		<md-input-container>
+		
+            
+        </div>
+        <div class="padding">
+            <button ui-sref="app.postsharebasket" class="button button-full button-assertive ink" ng-click="createBaskey()">Send</button>
+        </div>
+		
+		</form>
+			
+        </div>
+    </ion-content>
+</ion-view>
